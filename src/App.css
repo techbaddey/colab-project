@@ -170,6 +170,21 @@ a {
   padding-top: 80px;
   padding-bottom: 50px;
   background-color: #e4e4ff;
+  width: 100%;
+}
+
+.project-container h3 {
+  text-align: center;
+  padding-bottom: 20px;
+  font-family: "Tangerine", cursive;
+  font-size: 40px;
+}
+
+.project-container .image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  padding-right: 0px;
 }
 
 
@@ -185,6 +200,9 @@ a {
     font-size: 20px;
   }
   .home-section .hero-text {
+    font-size: 50px;
+  }
+  .project-container h3 {
     font-size: 50px;
   }
   .hero-section .hero-one {
