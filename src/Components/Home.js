@@ -29,9 +29,9 @@ export default function Home() {
             lend a hand. Collaborating with talented professionals worldwide and
             making meaningful contributions to technology projects brings me a
             profound sense of fulfillment. <br/>I am proud to have completed a
-            Software Engineering diploma course at AltSchool Africa, where I
+            Software Engineering diploma course at <b>AltSchool Africa</b>, where I
             gained valuable insights and honed my programming skills.
-            Furthermore, I had the opportunity to intern at BuildLab Africa for
+            Furthermore, I had the opportunity to intern at <b>BuildLab Africa</b> for
             four months, which provided me with practical industry experience
             and enhanced my understanding of software development processes. <br/>My
             proficiency in data structures and algorithms is a testament to my
@@ -42,7 +42,7 @@ export default function Home() {
               target="_blank"
               rel="noreferrer"
             >
-              Leetcode
+              <b>Leetcode</b>
             </a>
             . Additionally, I actively contribute to{" "}
             <a
@@ -50,7 +50,7 @@ export default function Home() {
               target="_blank"
               rel="noreferrer"
             >
-              Stack Overflow,
+              <b>Stack Overflow</b>,
             </a>{" "}
             assisting individuals in resolving coding challenges. <br/>I am
             perpetually eager to embrace new challenges and create a positive

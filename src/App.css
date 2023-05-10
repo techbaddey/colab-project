@@ -158,6 +158,14 @@ a {
   border-bottom: 3px solid #ff6dcd;
 }
 
+.hero-section .hero-one a {
+  color: black;
+}
+
+.hero-section .hero-one a:hover {
+  border-bottom: 3px solid #ff6dcd;
+}
+
 @media (min-width: 700px) {
   .hero-section {
     display: flex;
