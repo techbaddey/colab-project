@@ -133,7 +133,7 @@ a {
 .footer-container {
   background-color: #5a60ea;
   color: white;
-  padding: 40px;
+  padding: 40px 20px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -227,6 +227,28 @@ a {
   font-weight: bold;
 }
 
+.project-container .project-sub .sub-project .title {
+  font-size: 16px;
+  margin-top: 10px;
+  font-weight: bold;
+  color: black;
+}
+
+.project-container .github-btn {
+  margin-top: 25px;
+  margin-left: 10px;
+  border: none;
+  border: 3px solid #5a60ea;
+  padding: 9px 18px;
+  background-color: transparent;
+  border-radius: 40px;
+}
+
+.project-container .github-btn a {
+  color: #5a60ea;
+  font-weight: bold;
+}
+
 .project-container .project-sub .sub-project .flex button:hover {
   background-color: #5a60ea;
 }
@@ -282,5 +304,15 @@ a {
     display: flex;
     flex-direction: row;
   }
+  .footer-container {
+    background-color: #5a60ea;
+    color: white;
+    padding: 40px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+  }
+  
   
 }
