@@ -212,6 +212,30 @@ a {
   padding: 5px;
 }
 
+.project-container .project-sub .sub-project .flex button {
+  background-color: #ff6dcd;
+  border-radius: 40px;
+  justify-content: space-between;
+  padding: 9px 18px;
+  transition: all 0.25s;
+  display: flex;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-size: 15px;
+  margin-left: 15px;
+  font-weight: bold;
+}
+
+.project-container .project-sub .sub-project .flex button:hover {
+  background-color: #5a60ea;
+}
+
+.project-container .project-sub .sub-project .flex button a {
+  color: white;
+  text-transform: uppercase;
+}
+
 .project-container .project-sub .sub-project .flex p {
   margin-left: 10px;
   color: #5a60ea;
