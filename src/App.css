@@ -166,6 +166,13 @@ a {
   border-bottom: 3px solid #ff6dcd;
 }
 
+.project-container {
+  padding-top: 80px;
+  padding-bottom: 50px;
+  background-color: #e4e4ff;
+}
+
+
 @media (min-width: 700px) {
   .hero-section {
     display: flex;

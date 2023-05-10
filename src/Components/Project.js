@@ -11,12 +11,24 @@ export default function Project() {
   return (
     <>
     <Header />
-    <div>
+    <div className='project-container'>
+      <h3>My Recent Projects</h3>
+
+      <div>
     <img className="image" src={Mydomot} alt={" "} />
+    </div>
+    <div>
     <img className="image" src={metabnb} alt={" "} />
+    </div>
+
+    <div>
     <img className="image" src={puzzle} alt={" "} />
+    </div>
+    <div>
     <img className="image" src={portfolio} alt={" "} />
-        Project
+      </div>
+
+        <button> <a href='https://github.com/teqbaddie'> More in Github </a></button>
     </div>
     <Footer />
     </>
