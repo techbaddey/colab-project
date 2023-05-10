@@ -14,30 +14,30 @@ export default function Project() {
     <div className='project-container'>
       <h3>My Recent Projects</h3>
 
-<div className='project-one'>
-      <div>
+<div className='project-sub'>
+      <div className='sub-project'>
     <img className="image" src={Mydomot} alt={" "} />
     <p>React JS</p> <p>CSS</p> <p>Vercel</p>
-    <button>Live Demo</button>  <button>Source Code</button>
+    <button> <a href=''>Live Demo</a></button>  <button><a href=''>Source Code</a></button>
     </div>
-    <div>
+    <div className='sub-project'>
     <img className="image" src={metabnb} alt={" "} />
     <p>React JS</p> <p>Sass</p> <p>Vercel</p>
-    <button>Live Demo</button>  <button>Source Code</button>
+    <button><a href=''>Live Demo</a></button>  <button><a href=''>Source Code</a></button>
     </div>
     </div>
 
 
-<div className='project-two'>
-    <div>
+<div className='project-sub'>
+    <div className='sub-project'>
     <img className="image" src={puzzle} alt={" "} />
     <p>React JS</p> <p>CSS</p> <p>Vercel</p>
-    <button>Live Demo</button>  <button>Source Code</button>
+    <button><a href=''>Live Demo</a></button>  <button><a href=''>Source Code</a></button>
     </div>
-    <div>
+    <div className='sub-project'>
     <img className="image" src={portfolio} alt={" "} />
     <p>Vanilla JS</p> <p>Netlify</p> 
-    <button>Live Demo</button>  <button>Source Code</button>
+    <button><a href=''>Live Demo</a></button>  <button><a href=''>Source Code</a></button>
       </div>
       </div>
 
