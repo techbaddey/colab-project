@@ -17,13 +17,21 @@ export default function Project() {
 <div className='project-sub'>
       <div className='sub-project'>
     <img className="image" src={Mydomot} alt={" "} />
+    <div className='flex'>
     <p>React JS</p> <p>CSS</p> <p>Vercel</p>
+</div>
+<div className='flex'>
     <button> <a href=''>Live Demo</a></button>  <button><a href=''>Source Code</a></button>
+    </div>
     </div>
     <div className='sub-project'>
     <img className="image" src={metabnb} alt={" "} />
+    <div className='flex'>
     <p>React JS</p> <p>Sass</p> <p>Vercel</p>
+    </div>
+    <div className='flex'>
     <button><a href=''>Live Demo</a></button>  <button><a href=''>Source Code</a></button>
+    </div>
     </div>
     </div>
 
@@ -31,13 +39,21 @@ export default function Project() {
 <div className='project-sub'>
     <div className='sub-project'>
     <img className="image" src={puzzle} alt={" "} />
+    <div className='flex'>
     <p>React JS</p> <p>CSS</p> <p>Vercel</p>
+    </div>
+    <div className='flex'>
     <button><a href=''>Live Demo</a></button>  <button><a href=''>Source Code</a></button>
+    </div>
     </div>
     <div className='sub-project'>
     <img className="image" src={portfolio} alt={" "} />
+    <div className='flex'>
     <p>Vanilla JS</p> <p>Netlify</p> 
+    </div>
+    <div className='flex'>
     <button><a href=''>Live Demo</a></button>  <button><a href=''>Source Code</a></button>
+      </div>
       </div>
       </div>
 
