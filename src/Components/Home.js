@@ -6,43 +6,59 @@ import mypicture from "../Assests/mypicture.jpeg";
 export default function Home() {
   return (
     <>
-    <div className="home-section">
-        <Header />
-      <div className="hero-section">
-        <diV>
-        I am <b>Oyinkansola Shoroye,</b> a proficient software developer
-        based in Lagos, Nigeria. <br /> My specialty lies in core frontend
-        technologies, and I am always keen to explore new developments in my
-        field. My passion for technology extends across various aspects. With
-        ease, I navigate the intersection between designing exceptional digital
-        products, meeting user needs, and catering to business objectives. My
-        skillset enables me to execute tasks with utmost proficiency and
-        accuracy, whether remotely or on-site. Beyond my core expertise, I enjoy
-        sharing my knowledge of technology through speaking and writing. I am
-        also an active volunteer, always willing to contribute to solutions that
-        solve people's problems. I find great fulfillment in collaborating with
-        other tech talents worldwide and making meaningful contributions to tech
-        projects. I pride myself on my proficiency in data structure and
-        algorithms, as demonstrated by my prowess in solving{" "}
-        <a href="https://leetcode.com/teqbaddie" target="_blank" rel="noreferrer">
-          Leetcode 
-        </a>
-        problems. Additionally, I am an active contributor to{" "}
-        <a
-          href="https://stackoverflow.com/users/19193399/oyinkansola-shoroye"
-          target="_blank" rel="noreferrer"
-        >
-          Stack Overflow,
-        </a>{" "}
-        where I help people solve coding problems. I am always eager to take on
-        new challenges and make a difference in the tech industry.
-      </diV> 
-      <div className="img">
-      <img className="mypicture" src={mypicture} alt={mypicture} />
-      </div>
-      </div>
+      <Header />
+      <div className="home-section">
+        <h2 className="hero-text">
+              Hello! I am Oyinkansola Shoroye, a frontend developer in Lagos,
+              Nigeria
+            </h2>
+        <div className="hero-section">
+          
+          <div className="img">
+            <img className="mypicture" src={mypicture} alt={mypicture} />
+          </div>
+          <div className="hero-one">
+            I am a highly skilled frontend
+            developer with a deep passion for exploring and staying up-to-date
+            with the latest advancements in my field. Whether working remotely
+            or on-site, I consistently deliver tasks with exceptional
+            proficiency and accuracy. <br/> I actively engage in sharing my
+            technological knowledge through public speaking and writing. I find
+            great joy in contributing to solutions that solve real-world
+            problems, and as an enthusiastic volunteer, I am always ready to
+            lend a hand. Collaborating with talented professionals worldwide and
+            making meaningful contributions to technology projects brings me a
+            profound sense of fulfillment. <br/>I am proud to have completed a
+            Software Engineering diploma course at AltSchool Africa, where I
+            gained valuable insights and honed my programming skills.
+            Furthermore, I had the opportunity to intern at BuildLab Africa for
+            four months, which provided me with practical industry experience
+            and enhanced my understanding of software development processes. <br/>My
+            proficiency in data structures and algorithms is a testament to my
+            dedication, as evidenced by my successful problem-solving on
+            platforms like{" "}
+            <a
+              href="https://leetcode.com/teqbaddie"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Leetcode
+            </a>
+            . Additionally, I actively contribute to{" "}
+            <a
+              href="https://stackoverflow.com/users/19193399/oyinkansola-shoroye"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Stack Overflow,
+            </a>{" "}
+            assisting individuals in resolving coding challenges. <br/>I am
+            perpetually eager to embrace new challenges and create a positive
+            impact within the dynamic tech industry.
+          </div>
+        </div>
       </div>
       <Footer />
-      </>
+    </>
   );
 }
